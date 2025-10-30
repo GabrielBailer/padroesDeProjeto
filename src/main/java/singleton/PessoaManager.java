@@ -1,8 +1,13 @@
-package criacional.singleton;
+package singleton;
+
 import java.util.ArrayList;
+
 public class PessoaManager {
+
     private static PessoaManager instance;
+
     private PessoaManager(){}
+
     public static PessoaManager getInstance() {
         if(instance == null) {
             instance = new PessoaManager();

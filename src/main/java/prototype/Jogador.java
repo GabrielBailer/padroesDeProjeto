@@ -1,4 +1,4 @@
-package criacional.prototype;
+package prototype;
 
 import lombok.Builder;
 import lombok.Data;
